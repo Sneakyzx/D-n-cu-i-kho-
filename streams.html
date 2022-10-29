@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/streams.css">
+    <title>Final-Project</title>
+    <link rel="icon" href="https://i.upanh.org/2022/10/24/logo.png" type="image/icon type">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+</head>
+<body>
+    <!-- headed -->
+  <div id="headed">
+    <div class="headed-left">
+        <a href="./home.html">
+            <img src="./img/logo.png" alt="logo">
+        </a>
+        <form class="search-bar ">
+            <i class="fa fa-search"></i>
+            <input type="text" placeholder="Type something">
+        </form>
+    </div>
+    <div class="headed-right">
+        <a href="./home.html">Home</a>
+        <a href="./browse.html">Browse</a>
+        <a href="./details.html">Details</a>
+        <a href="./streams.html" style="color: #e75e8d ;">Streams</a>
+        <a href="./dangnhap.html"
+             class="profile-btn">
+                Đăng nhập
+                <img src="./img/profile-header.jpg" alt="profile" style="border-radius: 50% ;">
+        </a>
+    </div>
+    <div id="headed-items" class="headed-mobile">
+        <a href="./home.html">Home</a>
+        <a href="./browse.html">Browse</a>
+        <a href="./details.html">Details</a>
+        <a href="./streams.html">Streams</a>
+        <a href="./dangnhap.html">Đăng nhập</a>
+    </div>
+    <a id="mobile-menu" class="menu-trigger">
+        <span><i id="open-btn" class="fa fa-bars"></i><i id="close-btn" class="fa fa-xmark"></i></span>
+    </a>
+</div>
+    <main>
+        <div class="top">
+            <div class="streams">
+                <div class="live">
+                    <h1 class="title">
+                        <span class="wu">Live</span>
+                        Streams
+                    </h1>
+                    <div class="carousel">
+                        <div class="container">
+                            <div class="item">
+                                <div class="thumb">
+                                    <img src="https://s1.dmcdn.net/v/DdHRS1Mlw5ke4C7Z0/x1080" alt="">
+                                    <div class="number">2.4K Streaming</div>
+                                </div>
+                                <div class="row">
+                                    <div class="name">CS:GO</div>
+                                    <div class="rate">
+                                        <i class="fa-solid fa-star"></i>
+                                        <span>4.6</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="downloadTimes">3.3M Downloads</div>
+                                    <div class="download">
+                                        <i class="fa-solid fa-download"></i>
+                                        <span>3.3M</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="thumb">
+                                    <img src="https://cdn.ndtv.com/tech/gadgets/start_recording_gta_v_rockstar_games.jpg" alt="">
+                                    <div class="number">2.4K Streaming</div>
+                                </div>
+                                <div class="row">
+                                    <div class="name">GTA V</div>
+                                    <div class="rate">
+                                        <i class="fa-solid fa-star"></i>
+                                        <span>4.8</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="downloadTimes">9.2M Downloads</div>
+                                    <div class="download">
+                                        <i class="fa-solid fa-download"></i>
+                                        <span>9.2M</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="thumb">
+                                    <img src="https://i.pinimg.com/originals/9c/d7/5d/9cd75d8a31b9b643b1ed2227d249e6f3.jpg" alt="">
+                                    <div class="number">2.4K Streaming</div>
+                                </div>
+                                <div class="row">
+                                    <div class="name">League of Legends</div>
+                                    <div class="rate">
+                                        <i class="fa-solid fa-star"></i>
+                                        <span>5</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="downloadTimes">10M Downloads</div>
+                                    <div class="download">
+                                        <i class="fa-solid fa-download"></i>
+                                        <span>10M</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="topStreamers">
+                <h1 class="title">
+                    <span class="wu">Top</span>
+                    Streamers
+                </h1>
+                <ul class="list">
+                    <li>
+                        <div class="number">01</div>
+                        <div class="avt">
+                            <img style="border-radius: 50% ; width: 50px; height: 50px;" src="https://event.mediacdn.vn/2020/10/13/do-mixi-2-16025682119328247512.png" alt="">
+                        </div>
+                        <div class="name">
+                            <i class="fa-solid fa-circle-check"></i>
+                            Do Mixi
+                        </div>
+                        <div class="followBtn">Follow</div>
+                    </li>
+                    <hr>
+                    <li>
+                        <div class="number">01</div>
+                        <div class="avt">
+                            <img style="border-radius: 50% ; width: 50px; height: 50px;" src="https://imgthumb-cdn.thethao247.vn/thumbamp/upload/caodat/2020/10/20/thay-giao-ba-to-chuc-giai-all-star-vi-mien-trung-1603172979.jpg" alt="">
+                        </div>
+                        <div class="name">
+                            <i class="fa-solid fa-circle-check"></i>
+                            Ba Teacher
+                        </div>
+                        <div class="followBtn">Follow</div>
+                    </li>
+                    <hr>
+                    <li>
+                        <div class="number">01</div>
+                        <div class="avt">
+                            <img style="border-radius: 50% ; width: 50px; height: 50px;" src="https://static2.yan.vn/YanNews/2167221/202112/bomman-la-ai-thong-tin-tieu-su-caster-streamer-bomman-b09eda8e.jpeg" alt="">
+                        </div>
+                        <div class="name">
+                            <i class="fa-solid fa-circle-check"></i>
+                            Bomman
+                        </div>
+                        <div class="followBtn">Follow</div>
+                    </li>
+                    <hr>
+                    <li>
+                        <div class="number">01</div>
+                        <div class="avt">
+                            <img style="border-radius: 50% ; width: 50px; height: 50px;" src="https://cdn.oneesports.vn/cdn-data/sites/4/2022/05/TheAnh96-05.jpg"alt="">
+                        </div>
+                        <div class="name">
+                            <i class="fa-solid fa-circle-check"></i>
+                            Theanh96
+                        </div>
+                        <div class="followBtn">Follow</div>
+                    </li>
+                    <hr>
+                    <li>
+                        <div class="number">01</div>
+                        <div class="avt">
+                            <img style="border-radius: 50% ; width: 50px; height: 50px;" src="https://newsmd2fr.keeng.net/tiin/archive/images/20211120/102001_tc11.jpg" alt="">
+                        </div>
+                        <div class="name">
+                            <i class="fa-solid fa-circle-check"></i>
+                            Optimus
+                        </div>
+                        <div class="followBtn">Follow</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom">
+            <h1 class="title"><span>Most Popular</span> Live Stream</h1>
+            <ul class="list">
+                <li>
+                    <div class="thumb">
+                        <img style="border-radius: 23px ;width: 100%; height: 255px;" src="https://i.ytimg.com/vi/uMfu7pExrQA/maxresdefault.jpg" alt="">
+                        <div class="status1">Live</div>
+                        <div class="status2">
+                            <div>
+                                <i class="fas fa-eye"></i>
+                                1.2K
+                            </div>
+                            <div>
+                                <i class="fas fa-gamepad"></i>
+                                CS-GO
+                            </div>
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <div class="avt">
+                            <img style="border-radius: 50% ; width: 50px; height: 50px;" src="https://static2.yan.vn/YanNews/2167221/202112/bomman-la-ai-thong-tin-tieu-su-caster-streamer-bomman-b09eda8e.jpeg" alt="">
+                        </div>
+                        <div class="info">
+                            <div class="user">
+                                <i class="fa-solid fa-circle-check"></i>
+                                Bomman</div>
+                            <h3 class="name">Funny</h3>
+                        </div>
+                    </div>
+              
+                </li>
+                <li>
+                    <div class="thumb">
+                        <img style="border-radius: 23px ;width: 100%; height: 255px;" src="https://i.ex-cdn.com/mgn.vn/files/truongthanhdat.ftu2/2021/04/19/2-1513.jpg" alt="">
+                        <div class="status1">Live</div>
+                        <div class="status2">
+                            <div>
+                                <i class="fas fa-eye"></i>
+                                1.2K
+                            </div>
+                            <div>
+                                <i class="fas fa-gamepad"></i>
+                                LoL
+                            </div>
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <div class="avt">
+                            <img style="border-radius: 50% ; width: 50px; height: 50px;" src="https://imgthumb-cdn.thethao247.vn/thumbamp/upload/caodat/2020/10/20/thay-giao-ba-to-chuc-giai-all-star-vi-mien-trung-1603172979.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <div class="user">
+                                <i class="fa-solid fa-circle-check"></i>
+                                Ba Teacher</div>
+                            <h3 class="name">Just talking with fans</h3>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="thumb">
+                        <img style="border-radius: 23px ;width: 100%; height: 255px;" src="https://genk.mediacdn.vn/2019/4/29/do2-15565521130381592666425.png"alt="">
+                        <div class="status1">Live</div>
+                        <div class="status2">
+                            <div>
+                                <i class="fas fa-eye"></i>
+                                1.2K
+                            </div>
+                            <div>
+                                <i class="fas fa-gamepad"></i>
+                                GTA V
+                            </div>
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <div class="avt">
+                            <img style="border-radius: 50% ; width: 50px; height: 50px;" src="https://event.mediacdn.vn/2020/10/13/do-mixi-2-16025682119328247512.png"  alt="">
+                        </div>
+                        <div class="info">
+                            <div class="user">
+                                <i class="fa-solid fa-circle-check"></i>
+                              Do Mixi</div>
+                            <h3 class="name">Adventure Time</h3>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="thumb">
+                        <img style="border-radius: 23px ;width: 100%; height: 255px;" src="https://kenh14cdn.com/203336854389633024/2020/11/20/photo-8-16058869604032100491934.jpg" alt="">
+                        <div class="status1">Live</div>
+                        <div class="status2">
+                            <div>
+                                <i class="fas fa-eye"></i>
+                                1.2K
+                            </div>
+                            <div>
+                                <i class="fas fa-gamepad"></i>
+                                CS-GO
+                            </div>
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <div class="avt">
+                            <img style="border-radius: 50% ; width: 50px; height: 50px;" src="https://newsmd2fr.keeng.net/tiin/archive/images/20211120/102001_tc11.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <div class="user">
+                                <i class="fa-solid fa-circle-check"></i>
+                                Optimus</div>
+                            <h3 class="name">Skill god</h3>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="thumb">
+                        <img style="border-radius: 23px ;width: 100%; height: 255px;" src="https://i.ytimg.com/vi/Smh__Hy6FYc/maxresdefault.jpg" alt="">
+                        <div class="status1">Live</div>
+                        <div class="status2">
+                            <div>
+                                <i class="fas fa-eye"></i>
+                                1.2K
+                            </div>
+                            <div>
+                                <i class="fas fa-gamepad"></i>
+                                Valorant
+                            </div>
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <div class="avt">
+                            <img style="border-radius: 50% ; width: 50px; height: 50px;" src="https://newsmd2fr.keeng.net/tiin/archive/images/20211120/102001_tc11.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <div class="user">
+                                <i class="fa-solid fa-circle-check"></i>
+                                Theanh96</div>
+                            <h3 class="name">Pro Player</h3>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="thumb">
+                        <img style="border-radius: 23px ;width: 100%; height: 255px;" src="https://external-preview.redd.it/wHJ4ELcGFCaD5SKW0ay1gEFchGMfooKt23wvGTy9yqo.jpg?auto=webp&s=0ed037228ae6b983e0741b4297ba3279bdabd104" alt="">
+                        <div class="status1">Live</div>
+                        <div class="status2">
+                            <div>
+                                <i class="fas fa-eye"></i>
+                                1.2K
+                            </div>
+                            <div>
+                                <i class="fas fa-gamepad"></i>
+                                CS-GO
+                            </div>
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <div class="avt">
+                            <img style="border-radius: 50% ; width: 50px; height: 50px;" src="https://imageio.forbes.com/specials-images/imageserve/5f2ad3ddbb62665a975bcf27/0x0.jpg?format=jpg&width=1200" alt="">
+                        </div>
+                        <div class="info">
+                            <div class="user">
+                                <i class="fa-solid fa-circle-check"></i>
+                                Shroud</div>
+                            <h3 class="name">Pro Player</h3>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="thumb">
+                        <img style="border-radius: 23px ;width: 100%; height: 255px;" src="https://i.ytimg.com/vi/k0HuSiAAZMw/maxresdefault.jpg" alt="">
+                        <div class="status1">Live</div>
+                        <div class="status2">
+                            <div>
+                                <i class="fas fa-eye"></i>
+                                1.2K
+                            </div>
+                            <div>
+                                <i class="fas fa-gamepad"></i>
+                                Valorant
+                            </div>
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <div class="avt">
+                            <img style="border-radius: 50% ; width: 50px; height: 50px;" src="https://cdn1.dotesports.com/wp-content/uploads/2021/06/20120445/sen-tenz-1-1536x1068-1.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <div class="user">
+                                <i class="fa-solid fa-circle-check"></i>
+                                TenZ</div>
+                            <h3 class="name">Pro Player</h3>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="thumb">
+                        <img style="border-radius: 23px ;width: 100%; height: 255px;" src="https://i.ytimg.com/vi/ML7N3N7IrSQ/maxresdefault.jpg" alt="">
+                        <div class="status1">Live</div>
+                        <div class="status2">
+                            <div>
+                                <i class="fas fa-eye"></i>
+                                1.2K
+                            </div>
+                            <div>
+                                <i class="fas fa-gamepad"></i>
+                                CS-GO
+                            </div>
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <div class="avt">
+                            <img style="border-radius: 50% ; width: 50px; height: 50px;" src="https://ichef.bbci.co.uk/news/640/cpsprodpb/e98d/live/3831ce90-4af3-11ed-9c13-7bbffa383cd8.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <div class="user">
+                                <i class="fa-solid fa-circle-check"></i>
+                                Nguyễn Ngọc Ngạn</div>
+                            <h3 class="name">Bedtime Stories</h3>
+                        </div>
+                    </div>
+                </li>
+                
+            </ul>
+            <div class="loadMore"><p>Load More Streams</p></div>
+        </div>
+    </main>
+    <div class="footed-containe">
+        <h4>Copyright © 2077 <a href="#">Cyborg Gaming</a> Company. All rights reserved.</h4>
+        <p>Design: <a href="#"></a> Distributed By <a href="#">đội 3 nhóm 2</a></p>
+    </div>
+
+    <!-- js -->
+    <script src="./home.js"></script>
+    <script src="./js/streams.js"></script>
+</body>
+</html>

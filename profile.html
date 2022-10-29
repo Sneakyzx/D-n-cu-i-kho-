@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final-Project</title>
+    <link rel="icon" href="https://i.upanh.org/2022/10/24/logo.png" type="image/icon type">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="./css/profile.css">
+</head>
+<body>
+    <!-- headed -->
+  <div id="headed">
+    <div class="headed-left">
+        <a href="./home.html">
+            <img src="./img/logo.png" alt="logo">
+        </a>
+        <form class="search-bar ">
+            <i class="fa fa-search"></i>
+            <input type="text" placeholder="Type something">
+        </form>
+    </div>
+    <div class="headed-right">
+        <a href="./home.html">Home</a>
+        <a href="./browse.html">Browse</a>
+        <a href="./details.html">Details</a>
+        <a href="./streams.html">Streams</a>
+        <a href="./profile.html"
+             class="profile-btn" style="color: #e75e8d ; gap: 10px;">
+                Văn Po
+                <img src="./img/profile-header.jpg" alt="profile" style="border-radius: 50% ;">
+
+        </a>
+    </div>
+    <div id="headed-items" class="headed-mobile">
+        <a href="./home.html">Home</a>
+        <a href="./browse.html">Browse</a>
+        <a href="./details.html">Details</a>
+        <a href="./streams.html">Streams</a>
+        <a href="./profile.html"> Văn Po</a>
+    </div>
+    <a id="mobile-menu" class="menu-trigger">
+        <span><i id="open-btn" class="fa fa-bars"></i><i id="close-btn" class="fa fa-xmark"></i></span>
+    </a>
+</div>
+
+    <main>
+        <div class="top">
+            <div class="user-info">
+                <div class="sideL">
+                    <img src="https://technext.github.io/cyborg/assets/images/profile.jpg" alt="">
+                </div>
+                <div class="mid">
+                    <div class="status">Offline</div>
+                    <h1 class="name">Nguyễn Văn Po</h1>
+                    <div class="des">You Haven't Gone Live yet. Go Live By Touching The Button Below.</div>
+                    <div class="live">Start live Stream</div>
+                    <div class="sideR">
+                        <ul>
+                            <li>
+                                <div class="name">Games Downloaded</div>
+                                <div class="number">12</div>
+                            </li>
+                            <hr>
+                            <li>
+                                <div class="name">Friends Online</div>
+                                <div class="number">23</div>
+                            </li>
+                            <hr>
+                            <li>
+                                <div class="name">Live Stream</div>
+                                <div class="number">None</div>
+                            </li>
+                            <hr>
+                            <li>
+                                <div class="name">Clips</div>
+                                <div class="number">34</div>
+                            </li>
+                            <hr>
+                            <li>
+                                <div class="name"></div>
+                                <div class="number"></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="user-clips"></div>
+        </div>
+        <div class="user-libs"></div>
+    </main>
+    
+    <script src="./js/profile.js"></script>
+</body>
+</html>
